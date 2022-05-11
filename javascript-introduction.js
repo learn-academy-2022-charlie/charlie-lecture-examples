@@ -177,3 +177,5 @@ console.log("damien".toUpperCase()) // -- > output 'DAMIEN'
           console.log(true != false) // true
           console.log(!false != false) // true
           console.log(!false && false != true)  // true
+
+      //DON and the class were here!
