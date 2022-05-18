@@ -148,9 +148,9 @@ describe("combined", () => {
 // 5: Refactor if necessary
 // Use dynamic, reusable parameters and code that will allow different inputs work within the function, practice the DRY technique(Don't Repeat Yourself), use less lines
 
-// const combined = (array1, array2) => {
-//   return array1.concat(array2).sort()
-// }
+const combined = (array1, array2) => {
+  return array1.concat(array2).sort()
+}
 
 // To make a pull request
 // $ cd .. //go back to the repo level to run git commands
