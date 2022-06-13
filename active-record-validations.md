@@ -9,10 +9,10 @@ Active Record Validations 6/13/22
     - Features work appropriately 
     - Reduce bugs
   - Validations
-    - Ensure that only the data we as the developer want saved in our databases gets saved in our dataases. 
+    - Ensure that only the data we as the developer want saved in our databases gets saved in our databases. 
   - Specs
     - Specifications
-    - The tell other developers what kind ofg information we are looking for
+    - The tell other developers what kind of information we are looking for
     
 # What is a validation? 
   - A validation is a rails method that can be set up in  a number of different ways depending on the arguments passed to it
