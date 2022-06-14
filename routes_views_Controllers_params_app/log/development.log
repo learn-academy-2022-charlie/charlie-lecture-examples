@@ -1,0 +1,656 @@
+  [1m[35m (76.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "food_app_development"[0m
+  [1m[35m (45.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "food_app_test"[0m
+  [1m[35m (266.3ms)[0m  [1m[35mCREATE DATABASE "food_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (176.2ms)[0m  [1m[35mCREATE DATABASE "food_app_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2022-06-14 10:37:04 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.5ms | Allocations: 749)
+Completed 200 OK in 39ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 7088)
+
+
+Started GET "/" for ::1 at 2022-06-14 10:48:59 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.3ms | Allocations: 642)
+Completed 200 OK in 22ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 5808)
+
+
+Started GET "/food/tacos" for ::1 at 2022-06-14 10:49:55 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/food/tacos"):
+  
+Started GET "/tacos" for ::1 at 2022-06-14 10:55:29 -0700
+Processing by FoodController#tacos as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 13)
+Completed 200 OK in 15ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 4274)
+
+
+Started GET "/sushi" for ::1 at 2022-06-14 10:59:35 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/sushi"):
+  
+Started GET "/jenner" for ::1 at 2022-06-14 10:59:55 -0700
+Processing by FoodController#sushi as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 693)
+
+
+Started GET "/tacos" for ::1 at 2022-06-14 11:26:10 -0700
+Processing by FoodController#tacos as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 16ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 4204)
+
+
+Started GET "/tacos" for ::1 at 2022-06-14 11:27:20 -0700
+Processing by FoodController#tacos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 12.8ms | Allocations: 370)
+  Rendered layout layouts/application.html.erb (Duration: 758.7ms | Allocations: 91774)
+Completed 200 OK in 775ms (Views: 764.4ms | ActiveRecord: 0.0ms | Allocations: 93758)
+
+
+Started GET "/tacos" for ::1 at 2022-06-14 11:28:30 -0700
+Processing by FoodController#tacos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 0.6ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 2845)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 3875)
+
+
+Started GET "/jenner" for ::1 at 2022-06-14 11:32:15 -0700
+Processing by FoodController#sushi as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/sushi.html.erb within layouts/application
+  Rendered food/sushi.html.erb within layouts/application (Duration: 0.8ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 29.9ms | Allocations: 14325)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 15388)
+
+
+Started GET "/tacos" for ::1 at 2022-06-14 11:37:58 -0700
+Processing by FoodController#tacos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 1.8ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 30.3ms | Allocations: 14379)
+Completed 200 OK in 36ms (Views: 33.9ms | ActiveRecord: 0.0ms | Allocations: 15448)
+
+
+Started GET "/tacos" for ::1 at 2022-06-14 11:39:58 -0700
+Processing by FoodController#tacos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 1.5ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 2927)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 3961)
+
+
+Started GET "/tacos" for ::1 at 2022-06-14 11:41:01 -0700
+Processing by FoodController#tacos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 17.1ms | Allocations: 5026)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 5106)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 6154)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `ingredients' for #<ActionView::Base:0x000000000190c8>):
+    3: <h3> How to make: Charlie's Taco's</h3>
+    4: <h4>Ingredients list:</h4>
+    5: <ul>
+    6:   <% ingredients.each do |value|%>
+    7:     <li> <%= value %> </li>
+    8:   <% end %>`
+    9: </ul>
+  
+app/views/food/tacos.html.erb:6
+Started GET "/tacos" for ::1 at 2022-06-14 11:42:47 -0700
+Processing by FoodController#tacos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 1.4ms | Allocations: 216)
+  Rendered layout layouts/application.html.erb (Duration: 39.3ms | Allocations: 14537)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.0ms | Allocations: 15603)
+
+
+Started GET "/jenner" for ::1 at 2022-06-14 11:42:53 -0700
+Processing by FoodController#sushi as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/sushi.html.erb within layouts/application
+  Rendered food/sushi.html.erb within layouts/application (Duration: 1.4ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2531)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 2907)
+
+
+Started GET "/" for ::1 at 2022-06-14 11:45:25 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 51.0ms | Allocations: 14325)
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 0.0ms | Allocations: 15385)
+
+
+Started GET "/" for ::1 at 2022-06-14 11:48:24 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 185)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 2908)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 3936)
+
+
+Started GET "/Jenner" for ::1 at 2022-06-14 11:48:28 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/Jenner"):
+  
+Started GET "/Jenner" for ::1 at 2022-06-14 11:48:43 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/Jenner"):
+  
+Started GET "/" for ::1 at 2022-06-14 11:48:50 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 178)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 2879)
+Completed 200 OK in 28ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 3862)
+
+
+Started GET "/jenner" for ::1 at 2022-06-14 11:48:52 -0700
+Processing by FoodController#sushi as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/sushi.html.erb within layouts/application
+  Rendered food/sushi.html.erb within layouts/application (Duration: 1.2ms | Allocations: 118)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 2529)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 2908)
+
+
+Started GET "/" for ::1 at 2022-06-14 11:49:01 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2453)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 2771)
+
+
+Started GET "/jenner" for ::1 at 2022-06-14 11:49:41 -0700
+Processing by FoodController#sushi as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/sushi.html.erb within layouts/application
+  Rendered food/sushi.html.erb within layouts/application (Duration: 1.3ms | Allocations: 171)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2872)
+Completed 200 OK in 15ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 3903)
+
+
+Started GET "/" for ::1 at 2022-06-14 11:49:43 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 165)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2573)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 2951)
+
+
+Started GET "/jenner" for ::1 at 2022-06-14 11:49:45 -0700
+Processing by FoodController#sushi as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/sushi.html.erb within layouts/application
+  Rendered food/sushi.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2458)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 2779)
+
+
+Started GET "/" for ::1 at 2022-06-14 11:49:46 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2447)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 2768)
+
+
+Started GET "/" for ::1 at 2022-06-14 11:50:45 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 210)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 2922)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 3950)
+
+
+Started GET "/tacos" for ::1 at 2022-06-14 11:50:52 -0700
+Processing by FoodController#tacos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 2.2ms | Allocations: 212)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2629)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 3013)
+
+
+Started GET "/" for ::1 at 2022-06-14 11:51:36 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 223)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 2946)
+Completed 200 OK in 23ms (Views: 21.3ms | Allocations: 3972)
+
+
+Started GET "/jenner" for ::1 at 2022-06-14 11:51:37 -0700
+Processing by FoodController#sushi as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/sushi.html.erb within layouts/application
+  Rendered food/sushi.html.erb within layouts/application (Duration: 1.1ms | Allocations: 166)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2586)
+Completed 200 OK in 10ms (Views: 8.5ms | Allocations: 2961)
+
+
+Started GET "/" for ::1 at 2022-06-14 11:51:38 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2468)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 2786)
+
+
+Started GET "/tacos" for ::1 at 2022-06-14 11:51:39 -0700
+Processing by FoodController#tacos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 1.6ms | Allocations: 212)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2625)
+Completed 200 OK in 9ms (Views: 8.0ms | Allocations: 3005)
+
+
+Started GET "/tacos" for ::1 at 2022-06-14 11:52:17 -0700
+Processing by FoodController#tacos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 0.9ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2959)
+Completed 200 OK in 13ms (Views: 10.7ms | Allocations: 3993)
+
+
+Started GET "/" for ::1 at 2022-06-14 11:52:33 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 2610)
+Completed 200 OK in 14ms (Views: 12.3ms | Allocations: 2985)
+
+
+Started GET "/jenner" for ::1 at 2022-06-14 11:52:35 -0700
+Processing by FoodController#sushi as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/sushi.html.erb within layouts/application
+  Rendered food/sushi.html.erb within layouts/application (Duration: 3.5ms | Allocations: 163)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 2581)
+Completed 200 OK in 12ms (Views: 10.5ms | Allocations: 2955)
+
+
+Started GET "/" for ::1 at 2022-06-14 11:52:44 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2468)
+Completed 200 OK in 10ms (Views: 9.4ms | Allocations: 2786)
+
+
+Started GET "/" for ::1 at 2022-06-14 13:17:43 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 4.3ms | Allocations: 505)
+  Rendered layout layouts/application.html.erb (Duration: 114.2ms | Allocations: 35521)
+Completed 200 OK in 139ms (Views: 121.1ms | ActiveRecord: 0.0ms | Allocations: 40845)
+
+
+Started GET "/tacos" for ::1 at 2022-06-14 13:17:49 -0700
+Processing by FoodController#tacos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 1.2ms | Allocations: 253)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2706)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3098)
+
+
+Started GET "/tacos" for ::1 at 2022-06-14 13:19:31 -0700
+Processing by FoodController#tacos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 1.2ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 2963)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 3997)
+
+
+Started GET "/" for ::1 at 2022-06-14 13:19:40 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 204)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2621)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 3004)
+
+
+Started GET "/" for ::1 at 2022-06-14 13:21:15 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 217)
+  Rendered layout layouts/application.html.erb (Duration: 33.0ms | Allocations: 14405)
+Completed 200 OK in 38ms (Views: 36.4ms | ActiveRecord: 0.0ms | Allocations: 15467)
+
+
+Started GET "/" for ::1 at 2022-06-14 13:22:14 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 256)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 2953)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 3981)
+
+
+Started GET "/cheese_cake" for ::1 at 2022-06-14 13:22:16 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cheese_cake"):
+  
+Started GET "/cheese_cake" for ::1 at 2022-06-14 13:22:58 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cheese_cake"):
+  
+Started GET "/cheese_cake" for ::1 at 2022-06-14 13:23:17 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cheese_cake"):
+  
+Started GET "/davon" for ::1 at 2022-06-14 13:23:24 -0700
+Processing by FoodController#cheese_cake as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/cheese_cake.html.erb within layouts/application
+  Rendered food/cheese_cake.html.erb within layouts/application (Duration: 0.9ms | Allocations: 127)
+  Rendered layout layouts/application.html.erb (Duration: 71.9ms | Allocations: 35085)
+Completed 200 OK in 83ms (Views: 74.6ms | ActiveRecord: 0.0ms | Allocations: 38618)
+
+
+Started GET "/davon" for ::1 at 2022-06-14 13:23:38 -0700
+Processing by FoodController#cheese_cake as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/cheese_cake.html.erb within layouts/application
+  Rendered food/cheese_cake.html.erb within layouts/application (Duration: 3.4ms | Allocations: 171)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 2871)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 3905)
+
+
+Started GET "/" for ::1 at 2022-06-14 13:23:38 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2671)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 3055)
+
+
+Started GET "/cheese_cake" for ::1 at 2022-06-14 13:23:40 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cheese_cake"):
+  
+Started GET "/cheese_cake" for ::1 at 2022-06-14 13:23:50 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cheese_cake"):
+  
+Started GET "/" for ::1 at 2022-06-14 13:23:52 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 2954)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 3982)
+
+
+Started GET "/davon" for ::1 at 2022-06-14 13:23:53 -0700
+Processing by FoodController#cheese_cake as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/cheese_cake.html.erb within layouts/application
+  Rendered food/cheese_cake.html.erb within layouts/application (Duration: 1.3ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2596)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 2976)
+
+
+Started GET "/" for ::1 at 2022-06-14 13:24:38 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 2495)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms | Allocations: 2817)
+
+
+Started GET "/" for ::1 at 2022-06-14 13:25:24 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 14531)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms | Allocations: 15591)
+
+
+Started GET "/austin" for ::1 at 2022-06-14 13:25:25 -0700
+Processing by FoodController#tacos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 2.7ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 2658)
+Completed 200 OK in 14ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 3043)
+
+
+Started GET "/davon" for ::1 at 2022-06-14 13:31:51 -0700
+Processing by FoodController#cheese_cake as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/cheese_cake.html.erb within layouts/application
+  Rendered food/cheese_cake.html.erb within layouts/application (Duration: 1.1ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 14425)
+Completed 200 OK in 36ms (Views: 34.5ms | Allocations: 15489)
+
+
+Started GET "/davon" for ::1 at 2022-06-14 13:32:21 -0700
+Processing by FoodController#cheese_cake as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/cheese_cake.html.erb within layouts/application
+  Rendered food/cheese_cake.html.erb within layouts/application (Duration: 0.8ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 14087)
+Completed 200 OK in 29ms (Views: 28.2ms | Allocations: 14855)
+
+
+Started GET "/" for ::1 at 2022-06-14 13:38:34 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 149.8ms | Allocations: 14459)
+Completed 200 OK in 155ms (Views: 153.4ms | Allocations: 15518)
+
+
+Started GET "/davon" for ::1 at 2022-06-14 13:38:38 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/davon"):
+  
+Started GET "/davon/cherry" for ::1 at 2022-06-14 13:38:58 -0700
+Processing by FoodController#cheese_cake as HTML
+  Parameters: {"flavor"=>"cherry"}
+  Rendering layout layouts/application.html.erb
+  Rendering food/cheese_cake.html.erb within layouts/application
+  Rendered food/cheese_cake.html.erb within layouts/application (Duration: 1.0ms | Allocations: 180)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2604)
+Completed 200 OK in 9ms (Views: 6.8ms | Allocations: 2989)
+
+
+Started GET "/davon/chocolate" for ::1 at 2022-06-14 13:39:14 -0700
+Processing by FoodController#cheese_cake as HTML
+  Parameters: {"flavor"=>"chocolate"}
+  Rendering layout layouts/application.html.erb
+  Rendering food/cheese_cake.html.erb within layouts/application
+  Rendered food/cheese_cake.html.erb within layouts/application (Duration: 0.2ms | Allocations: 35)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2443)
+Completed 200 OK in 8ms (Views: 7.1ms | Allocations: 2769)
+
+
+Started GET "/davon/Chocolate" for ::1 at 2022-06-14 13:39:24 -0700
+Processing by FoodController#cheese_cake as HTML
+  Parameters: {"flavor"=>"Chocolate"}
+  Rendering layout layouts/application.html.erb
+  Rendering food/cheese_cake.html.erb within layouts/application
+  Rendered food/cheese_cake.html.erb within layouts/application (Duration: 0.2ms | Allocations: 35)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2449)
+Completed 200 OK in 6ms (Views: 5.0ms | Allocations: 2775)
+
+
+Started GET "/davon/Chocolate_chip" for ::1 at 2022-06-14 13:39:31 -0700
+Processing by FoodController#cheese_cake as HTML
+  Parameters: {"flavor"=>"Chocolate_chip"}
+  Rendering layout layouts/application.html.erb
+  Rendering food/cheese_cake.html.erb within layouts/application
+  Rendered food/cheese_cake.html.erb within layouts/application (Duration: 0.2ms | Allocations: 35)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2433)
+Completed 200 OK in 6ms (Views: 5.2ms | Allocations: 2759)
+
+
+Started GET "/davon/Ivan" for ::1 at 2022-06-14 13:41:10 -0700
+Processing by FoodController#cheese_cake as HTML
+  Parameters: {"flavor"=>"Ivan"}
+  Rendering layout layouts/application.html.erb
+  Rendering food/cheese_cake.html.erb within layouts/application
+  Rendered food/cheese_cake.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2451)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 2778)
+
+
+Started GET "/davon/Charlie" for ::1 at 2022-06-14 13:42:50 -0700
+Processing by FoodController#cheese_cake as HTML
+  Parameters: {"flavor"=>"Charlie"}
+  Rendering layout layouts/application.html.erb
+  Rendering food/cheese_cake.html.erb within layouts/application
+  Rendered food/cheese_cake.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 2449)
+Completed 200 OK in 14ms (Views: 11.8ms | Allocations: 2775)
+
+
+Started GET "/davon/Charlie" for ::1 at 2022-06-14 13:44:56 -0700
+Processing by FoodController#cheese_cake as HTML
+  Parameters: {"flavor"=>"Charlie"}
+Completed 500 Internal Server Error in 2ms (Allocations: 458)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/food_controller.rb:15:in `cheese_cake'
+Started GET "/davon/Charlie" for ::1 at 2022-06-14 13:45:01 -0700
+Processing by FoodController#cheese_cake as HTML
+  Parameters: {"flavor"=>"Charlie"}
+  Rendering layout layouts/application.html.erb
+  Rendering food/cheese_cake.html.erb within layouts/application
+  Rendered food/cheese_cake.html.erb within layouts/application (Duration: 0.2ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 14122)
+Completed 200 OK in 49ms (Views: 48.3ms | Allocations: 14901)
+
+
+Started GET "/" for ::1 at 2022-06-14 13:45:16 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2499)
+Completed 200 OK in 14ms (Views: 10.2ms | Allocations: 2818)
+
+
+Started GET "/" for ::1 at 2022-06-14 13:45:48 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 261)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 2980)
+Completed 200 OK in 22ms (Views: 20.2ms | Allocations: 4005)
+
+
+Started GET "/jenner" for ::1 at 2022-06-14 13:45:49 -0700
+Processing by FoodController#sushi as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/sushi.html.erb within layouts/application
+  Rendered food/sushi.html.erb within layouts/application (Duration: 1.9ms | Allocations: 177)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 2868)
+Completed 200 OK in 18ms (Views: 15.7ms | Allocations: 3899)
+
+
+Started GET "/austin" for ::1 at 2022-06-14 13:45:51 -0700
+Processing by FoodController#tacos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 1.6ms | Allocations: 249)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2647)
+Completed 200 OK in 11ms (Views: 9.1ms | Allocations: 3029)
+
+
+Started GET "/davon/ivan" for ::1 at 2022-06-14 13:45:53 -0700
+Processing by FoodController#cheese_cake as HTML
+  Parameters: {"flavor"=>"ivan"}
+  Rendering layout layouts/application.html.erb
+  Rendering food/cheese_cake.html.erb within layouts/application
+  Rendered food/cheese_cake.html.erb within layouts/application (Duration: 1.5ms | Allocations: 180)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2586)
+Completed 200 OK in 10ms (Views: 8.5ms | Allocations: 2973)
+
+
+Started GET "/" for ::1 at 2022-06-14 13:48:24 -0700
+Processing by FoodController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 33.4ms | Allocations: 14442)
+Completed 200 OK in 38ms (Views: 36.7ms | Allocations: 15498)
+
+
+Started GET "/austin" for ::1 at 2022-06-14 13:48:26 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/austin"):
+  
+Started GET "/austin/whiskey/queso" for ::1 at 2022-06-14 13:48:33 -0700
+Processing by FoodController#tacos as HTML
+  Parameters: {"ingredient1"=>"whiskey", "ingredient2"=>"queso"}
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 1.2ms | Allocations: 248)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2652)
+Completed 200 OK in 10ms (Views: 9.2ms | Allocations: 3035)
+
+
+Started GET "/austin/whiskey/queso" for ::1 at 2022-06-14 13:48:40 -0700
+Processing by FoodController#tacos as HTML
+  Parameters: {"ingredient1"=>"whiskey", "ingredient2"=>"queso"}
+Completed 500 Internal Server Error in 18ms (Allocations: 3046)
+
+
+  
+NameError (undefined local variable or method `ingredient2' for #<FoodController:0x000000000292e8>
+Did you mean?  ingredient1):
+  
+app/controllers/food_controller.rb:5:in `tacos'
+Started GET "/austin/whiskey/queso" for ::1 at 2022-06-14 13:48:49 -0700
+Processing by FoodController#tacos as HTML
+  Parameters: {"ingredient1"=>"whiskey", "ingredient2"=>"queso"}
+  Rendering layout layouts/application.html.erb
+  Rendering food/tacos.html.erb within layouts/application
+  Rendered food/tacos.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 31.8ms | Allocations: 14127)
+Completed 200 OK in 37ms (Views: 35.8ms | Allocations: 14906)
+
+
