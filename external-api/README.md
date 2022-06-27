@@ -40,7 +40,7 @@
 
 ### Nasa API
 
-API Key : GpXutCpSMvkNJO2JKhKyGP5IuuRv9Nb8MqmiaQ0N
+
 
 - Set up some kind of scaffold for our Nasa Api Images
   - create a react class component
