@@ -1,0 +1,13 @@
+
+<%# Embeded ruby tag %>
+<h2> Austin's favorite food is Torchy tacos</h2>
+
+<p> Would you like to know how to mkae our class's tacos? </p>
+<h3> How to make: Charlie's Taco's</h3>
+<h4>Ingredients list:</h4>
+<ul>
+  <% @ingredients.each do |value|%>
+    <li> <%= value %> </li>
+  <% end %>
+</ul>
+<%= link_to 'Home', '/'%>
